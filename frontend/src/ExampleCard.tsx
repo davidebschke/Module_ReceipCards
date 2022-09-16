@@ -13,6 +13,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import "./Card.css";
 
 interface ExpandMoreProps extends IconButtonProps {
     expand: boolean;
@@ -40,8 +41,8 @@ export default function ExampleCard() {
         <Card sx={{ maxWidth: 345 ,borderRadius:'2em',backgroundColor:"#dcab8c",margin:"1em",boxShadow:'1em 1em 1em #070f00'}}>
             <CardHeader
                 avatar={
-                    <Avatar sx={{ bgcolor: "green" }} aria-label="Vollkorn">
-                        V
+                    <Avatar sx={{ bgcolor: "white" }} aria-label="Vollkorn" src={"../eggplant.png"}>
+
                     </Avatar>
                 }
                 action={
