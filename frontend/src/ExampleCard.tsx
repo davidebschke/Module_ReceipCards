@@ -40,9 +40,7 @@ export default function ExampleCard() {
         <Card sx={{ maxWidth: 345 ,borderRadius:'2em',backgroundColor:"#dcab8c",margin:"1em",boxShadow:'1em 1em 1em #070f00'}}>
             <CardHeader
                 avatar={
-                    <Avatar sx={{ bgcolor: "green" }} aria-label="Vollkorn">
-                        V
-                    </Avatar>
+                    <Avatar sx={{ bgcolor: "white" }} aria-label="Vollkorn" src={"../eggplant.png"}/>
                 }
                 action={
                     <IconButton aria-label="settings">
